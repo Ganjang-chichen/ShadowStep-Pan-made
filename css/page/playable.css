@@ -1,0 +1,20 @@
+
+.body-playable {
+    background-color: palevioletred;
+    overflow: hidden;
+}
+
+.body-playable > main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.body-playable > main > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

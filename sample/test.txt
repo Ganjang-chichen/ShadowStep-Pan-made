@@ -1,0 +1,9 @@
+youtube_link=https://www.youtube.com/watch?v=NwSriMki_UA
+youtube_start=0
+youtube_end=-1
+
+bpm=200
+game_start=10.90
+game_end=237
+
+beat_change=

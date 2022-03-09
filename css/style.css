@@ -1,5 +1,11 @@
+/*settings*/
+
+/*page*/
+@import "./page/playable.css";
+/*componenet*/
 @import "./component/youtube-locate.css";
 @import "./component/character.css";
+@import "./component/note_data.css";
 
 body {
 
