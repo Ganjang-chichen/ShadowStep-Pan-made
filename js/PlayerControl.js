@@ -1,4 +1,5 @@
-
+const player_character = document.querySelector(".main");
+const player_img = player_character.querySelector("img");
 
 document.addEventListener("keydown", (e) => {
     
@@ -10,7 +11,7 @@ document.addEventListener("keydown", (e) => {
 
         let left_src = "./img/chactor/left/snowmiku-left.png";
         let front_src = "./img/chactor/front/snowmiku-front.png"
-        change_left(left_src, front_src);
+        change_left(player_img, left_src, front_src);
     }
 
     if(e.key === "V"){
@@ -21,7 +22,7 @@ document.addEventListener("keydown", (e) => {
         
         let left_src = "./img/chactor/left/snowmiku-left.png";
         let front_src = "./img/chactor/front/snowmiku-front.png"
-        change_right(left_src, front_src);
+        change_right(player_img, left_src, front_src);
     }
 });
 

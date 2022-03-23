@@ -1,29 +1,24 @@
-const player_character = document.querySelector(".main");
 
-function change_left(left, front){
+function change_left(character, left, front){
     
-    player_character.querySelector("img").src = front;
-    player_character.querySelector("img").src = left;
-    player_character.querySelector("img").style = "transform: scaleX(1);";
-    console.log("key down l");
-
+    character.src = front;
+    character.src = left;
+    character.style = "transform: scaleX(1);";
+    
     setTimeout(e => {
-        player_character.querySelector("img").src = front;
-        console.log("end");
-    }, 200);
+        character.src = front;
+    }, 150);
 
 }
 
-function change_right(left, front){
+function change_right(character, left, front){
     
-    player_character.querySelector("img").src = front;
-    player_character.querySelector("img").src = left;
-    player_character.querySelector("img").style = "transform: scaleX(-1);";
-    console.log("key down r");
-
+    character.src = front;
+    character.src = left;
+    character.style = "transform: scaleX(-1);";
+    
     setTimeout(e => {
-        player_character.querySelector("img").src = front;
-        console.log("end");
-    }, 200);
+        character.src = front;
+    }, 150);
 
 }
